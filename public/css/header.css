@@ -1,0 +1,19 @@
+.fixed-header{
+  position: fixed;
+  height: 80px;
+  overflow: hidden;
+  top:0;
+  left:0;
+  right:0;
+  background-image: linear-gradient( #0a4799e3, #195196);
+  background-color: black;
+  color: white;
+  z-index: 2;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10),0 2px 10px 0 rgba(0,0,0,0.10);
+}
+
+#mainHeader{
+  width: 100%;
+  position: relative;
+  margin-top:80px; 
+}

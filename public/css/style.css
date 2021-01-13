@@ -1,0 +1,242 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+
+
+ul li{
+    display: inline-block;
+}
+
+.main_menu_icon{
+    display: none;
+}
+
+.image img{
+    margin-top: 0px;
+    width: 100%;
+    height: 300px;
+}
+
+.impText{
+    color: #c52903;
+}
+
+#searchBar{
+    margin: 20px;
+}
+
+#title{
+    position: absolute;
+    font-family: 'URW Chancery L',cursive !important;
+    font-style: italic;
+    font-stretch: semi-condensed;
+    text-shadow: 2px 2px 5px #8ed8fd;
+    font-size: 15px;
+    color: #03316b;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+} 
+
+#title h1, #title h2{
+    text-align: center;
+    width: 100%;
+    color: black;
+}
+
+.container{
+    position: absolute;
+    right: 4%;
+    left: 4%;
+    padding: 3% 4%;
+    padding-bottom: 60px !important;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    border-color: #d6dfec;
+    box-shadow: -3px 0 8px 2px #d6dfec, 0 3px 8px 2px #d6dfec, 3px 0 8px 2px #d6dfec, 0 -3px 8px 2px #d6dfec;
+}
+
+.conent{
+    text-align: justify;
+    float:left;
+    width:65%;
+}
+
+.search{
+    min-height: 200px;
+    border: 1px solid lightgray;
+}
+
+.searchIcon{
+    padding-top: 0px;
+    padding-bottom: 1.6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: -5px;
+    color: white;
+    background-color: #00000f;
+    border: 1px solid #00050b;
+}
+
+.searchForm{
+    padding: 5px;
+    margin: 10px;
+    float: left;
+    width: 90%;
+}
+
+.nomiBtn{
+    margin: 10px;
+    background-color: #07237b !important;
+}
+.nomiBtn:disabled {
+    background-color: #a8b2d2 !important;
+}
+#banner{
+    padding: 5px;
+    color:white;
+    display:none;
+    border-radius:5px;
+    background-color: #07237b;
+}
+
+h3,p{
+    margin: 10px 0;
+}
+
+#imdbIdGrp{
+    display: none;
+}
+
+th{
+    padding: 7px;
+}
+td {
+    font-style: italic;
+    padding: 5px;
+}
+thead tr {background-image: linear-gradient(to bottom, #d9edf7 0,#b9def0 100%);}
+tbody tr:nth-child(odd) {background-color: #e1eff8;}
+tbody tr:nth-child(even) {background-color: #e3f3f8;}
+
+button {
+    float: right;
+    margin: 15px 20px 10px 0;
+    width: 70px;
+    height: 25px;
+    border: 1px solid white;
+    background-color: #000;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 0 2px 2px rgba(0,0,0,0.12),2px 0 2px 2px rgba(0,0,0,0.12);
+}
+
+
+.imageSection{
+    width: 100%
+}
+
+.imageWidth{
+    width: 70%
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 872px ) {
+    #main-navigation {
+        font-size: .8em;
+    }
+    #title h1{
+        font-size: 1.5em;
+    }
+    #title h2{
+        margin-top: -10px;
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 1174px) {
+    .container{
+        right: 3%;
+        left: 3%;
+        padding: 3%;
+        padding-bottom: 60px !important;
+    }
+    .side-navigation-col{
+        width: 32%;
+    }
+    .side-navigation-col p{
+        font-size: .8em;
+    }
+    .side-navigation {
+        font-size: .75em;
+    }
+
+    .conent {
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .conent {
+        width: 100%; 
+    }
+
+    .side-navigation-col{
+        width: 100%;
+        float: left;
+        margin-top: 20px;
+    }
+
+    #main-navigation {
+        display: none;
+    }
+
+    .main_menu_icon{
+        display: inline-block;
+        margin: 25px 30px 25px 0;
+    }
+    
+    #title h1{
+        font-size: 1.2em;
+    }
+    #title h2{
+        margin-top: -20px;
+        font-size: .8em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    #title h1{
+        font-size: .9em;
+    }
+    #title h2{
+        margin-top: -20px;
+        font-size: .7em;
+    }
+} 
+
+@media screen and (min-width: 750px) {
+    #slide-main-navigation {
+        display: none!important;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #title h1{
+        font-size: 1.5em;
+    }
+    #title h2{
+        margin-top: -10px;
+        font-size: 1em;
+    }
+}

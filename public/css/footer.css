@@ -1,0 +1,15 @@
+.fixed-footer{
+  position: fixed;
+  bottom: 0;
+  background-image: linear-gradient( #07237b, #053571e6);
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 40px;
+  box-shadow: 2px 2px 8px 4px rgba(0,0,0,0.10),2px 2px 8px 4px rgba(0,0,0,0.10);
+}
+
+.main_footer{
+  display: flex;
+  justify-content: center;
+}
